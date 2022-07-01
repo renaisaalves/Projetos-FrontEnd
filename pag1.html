@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Primeiro Site</title>
+</head>
+<body>
+    <header>
+        <h1>Pinky Model</h1>
+        <p>Primeiro modelo do site inspirado no Desafio 10 do Curso em Vídeo</p>
+    </header>
+    <nav>
+        <a href="pag1.html">Básico</a>
+        <a href="#">Médio</a>
+        <a href="#">Avançado</a>
+    </nav>
+    <main>
+        <article>
+            <h2>Assunto do Tópico</h2>
+
+            <h3>Primeiro projeto</h3>
+
+            <p class="letter-intro">
+                Esse é o meu primeiro projeto FrontEnd utilizando <strong>HTML</strong> e <strong>CSS</strong>. Esse projeto foi inspirado no <a href="https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-02/d010" target="_blank">Desafio 10</a> do <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">Curso em Vídeo</a>, mas que possui um toque totalmente personalizado! 
+                Além disso, alguns sites me auxiliaram no aprendizado dessas duas tecnologias: a <a href="https://www.w3schools.com/" target="_blank">W3C School</a> e a <a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a>. Recomendo muito. 
+            </p>
+
+            <p>
+                O projeto em si é bastante modesto, mas estou orgulhosa por tê-lo feito. É o início de um grande
+                sonho: uma realização pessoal, um trabalho feito com muito carinho e dedicação. Todas as lições passadas pelo professor <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">Gustavo Guanabara</a>serviram para construir cada detalhe desse projeto. 
+            </p>
+
+            <h3>Imagem responsiva</h3>
+
+            <p class="letter-intro">
+                Durante meus estudos, um dos primeiros conceitos de responsividade do qual tive conhecimento foi com as imagens. No início, adaptá-las em qualquer resolução não foi uma tarefa fácil, uma vez que não dominava as propriedades de altura (<strong>height</strong>) e largura (<strong>width</strong>). Mas agora esse processo se tornou bastante simples.
+            </p>
+
+            <p>
+                No exemplo abaixo, eu criei algumas imagens coloridas com resoluções diferentes e fui modifcando os valores com base na largura do browser (navegador). A extensão <a href="https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh" target="_blank">Window Resizer</a> me auxiliou a definir os valores das imagens conforme o tamanho do display de cada dispositivo. 
+            </p>
+
+            <picture>
+                <source media="(max-width: 600px)" srcset="Imagens/SS-yellow.png">
+                <source media="(max-width: 700px)" srcset="Imagens/S-green.png">
+                <source media="(max-width: 800px)" srcset="Imagens/P-blue.png">
+                <source media="(max-width: 900px)" srcset="Imagens/M-purple.png">
+                <img src="Imagens/G-pink.png" alt="Imagem Rosa Tamanho Grande">
+            </picture>
+
+            <h3>Imagem com efeito Parallax</h3>
+
+            <p class="letter-intro">
+                Esse foi um dos recursos apresentados pelo professor Gustavo Guanabara sobre o efeito <strong>Parallex</strong>. O efeito consiste em manter a imagem fixa enquanto o cursor do mouse se movimenta. 
+            </p>
+
+            <picture>
+                <div class="parallax"></div>
+            </picture>
+
+            <p class="letter-intro">
+                É uma técnica simples que trás uma dinâmica na imagem bastante interessante!
+            </p>
+
+            <aside>
+                <h4>Em teste...</h4>
+                <p>
+                    Em breve, o site vai receber novos recursos. No momento, estou focada no aprendizado do <strong>Git</strong> e <strong>GitHub</strong> - materiais imprescindíveis para o trabalho do desenvolvedor(a) -. Até logo!
+                </p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>
+            Criado por aluna do <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">Curso em Vídeo</a>.
+        </p>
+    </footer>
+</body>
+</html>
